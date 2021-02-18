@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Form(props) {
+function Form(props) {
     return (
         <form className="login__form">
             <h2 className="form__title">
@@ -10,4 +10,4 @@ export default function Form(props) {
     )
 }
 
-export default Form
+export default Form;

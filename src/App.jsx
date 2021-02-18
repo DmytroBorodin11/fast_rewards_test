@@ -2,6 +2,7 @@ import React from 'react';
 import './css/App.css';
 import mainbg from './assets/main_bg_big.png';
 import bgBig from './assets/bg_big.png';
+import Form from './Components/Form';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
           <img src={bgBig} className='bg__big' alt="bgBig"/>
           <div className="form__wrap">
             <div className="form__container">
-              
+              <Form/>
             </div>
           </div>
       </div>
