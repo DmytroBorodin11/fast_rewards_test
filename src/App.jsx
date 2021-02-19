@@ -15,6 +15,7 @@ import bgImg8 from './assets/bg_img_8.png';
 import bgImg9 from './assets/bg_img_9.png';
 import bgImg10 from './assets/bg_img_10.png';
 import bgMid2 from './assets/bg_mid_2.png';
+import bgMin from './assets/bg_min.png';
 import Form from './Components/Form';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <img src={mainbgMid} className='main__bg__mid' alt="main_mid"/>
           <img src={bgMid} className='bg__mid' alt="bg_mid"/>
           <img src={bgMid2} className='bg__mid_2' alt="bg__mid_2"/>
+          <img src={bgMin} className='bg__min' alt="bg__min"/>
           <img src={bgImg1} alt="bg__img" className="bg__img" id="bg__img_1"/>
           <img src={bgImg2} alt="bg__img" className="bg__img" id="bg__img_2"/>
           <img src={bgImg3} alt="bg__img" className="bg__img" id="bg__img_3"/>

@@ -55,13 +55,13 @@ html {
   z-index: 1;
 }
 
-.bg__big, .bg__mid, .bg__mid_2 {
+.bg__big, .bg__mid, .bg__mid_2, .bg__min {
   width: 100%;
   position: absolute;
   bottom: 0;
 }
 
-.main__bg__mid, .bg__mid, .bg__img, .bg__mid_2, .bg__img_min {
+.main__bg__mid, .bg__mid, .bg__img, .bg__mid_2, .bg__img_min, .bg__min {
   display: none;
 }
 
@@ -169,6 +169,9 @@ html {
   .form__container {
     min-width: 34.3rem;
     padding: 4rem 0 5.6rem;
+  }
+  .bg__min {
+    display: block;
   }
   .bg__img {
     display: none;
