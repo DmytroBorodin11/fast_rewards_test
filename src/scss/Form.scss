@@ -1,0 +1,76 @@
+.login__form {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form__title {
+    margin-bottom: 6.4rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 3.0rem;
+    line-height: 1.9rem;
+    text-transform: uppercase;
+    color: #10204C;
+}
+.field__block {
+    width: 26rem;
+    position: relative;
+    margin-bottom: 3.2rem;
+    &:last-child {
+        margin-bottom: 11rem;
+    }
+    input {
+        width: 100%;
+        padding: 1.4rem 1.4rem;
+        border: 1px solid #B2B7BB;
+        border-radius: 8px;
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+        &::placeholder {
+            color: #B2B7BB;
+        }
+    }
+    .show_pass__btn {
+        position: absolute;
+        width: 1.8rem;
+        top: 50%;
+        right: 1.5rem;
+        transform: translateY(-50%);
+        img {
+            width: 100%;
+        }
+    }
+}
+.submit__btn {
+    width: 21.2rem;
+    padding: 1.5rem 0;
+    font-size: 1.8rem;
+    font-family: Roboto;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #FEFEFE;
+    background: linear-gradient(90deg, #FF9146 0%, #FF351B 100%);
+    border-radius: 5px;
+}
+.form__text {
+    margin-top: 1.6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    a, p{
+        font-family: Roboto;
+        font-size: 1.6rem;
+        line-height: 150%;
+        letter-spacing: 0.005em;
+        color: #B2B7BB;
+    }
+    .forgot__pass {
+        text-decoration: underline;
+    }
+    .register {
+        color: #4285F4;
+        margin-left: 0.9rem;
+    }
+}

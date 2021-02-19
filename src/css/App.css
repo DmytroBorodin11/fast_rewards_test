@@ -31,6 +31,7 @@ button:focus, input:focus {
 
 html {
   font-size: 10px;
+  font-family: Roboto;
 }
 
 .app {
@@ -45,7 +46,7 @@ html {
   position: relative;
 }
 
-.main__bg {
+.main__bg__big, .main__bg__mid {
   height: 100%;
   width: auto;
   position: absolute;
@@ -54,10 +55,14 @@ html {
   z-index: 1;
 }
 
-.bg__big {
+.bg__big, .bg__mid {
   width: 100%;
   position: absolute;
   bottom: 0;
+}
+
+.main__bg__mid, .bg__mid {
+  display: none;
 }
 
 .form__wrap {
@@ -68,13 +73,36 @@ html {
   align-items: center;
   justify-content: flex-end;
   padding-right: 2.4rem;
+  z-index: 2;
 }
 
 .form__container {
-  width: 41.13%;
+  width: 39.97%;
   padding: 8.8rem 0;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   background-color: #FEFEFE;
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1201px) {
+  .form__wrap {
+    padding-right: 1.6rem;
+  }
+  .form__container {
+    width: 48.41%;
+    min-width: 42rem;
+  }
+  .main__bg__big, .bg__big {
+    display: none;
+  }
+  .main__bg__mid, .bg__mid {
+    display: block;
+  }
 }
 /*# sourceMappingURL=App.css.map */
