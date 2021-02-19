@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fast_rewards_test/static/css/main.e0af20f8.chunk.css",
-    "main.js": "/fast_rewards_test/static/js/main.921671d0.chunk.js",
-    "main.js.map": "/fast_rewards_test/static/js/main.921671d0.chunk.js.map",
+    "main.css": "/fast_rewards_test/static/css/main.ee105ef4.chunk.css",
+    "main.js": "/fast_rewards_test/static/js/main.dbc123ed.chunk.js",
+    "main.js.map": "/fast_rewards_test/static/js/main.dbc123ed.chunk.js.map",
     "runtime-main.js": "/fast_rewards_test/static/js/runtime-main.f5c14717.js",
     "runtime-main.js.map": "/fast_rewards_test/static/js/runtime-main.f5c14717.js.map",
     "static/js/2.078233fe.chunk.js": "/fast_rewards_test/static/js/2.078233fe.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.d7ee6014.chunk.js": "/fast_rewards_test/static/js/3.d7ee6014.chunk.js",
     "static/js/3.d7ee6014.chunk.js.map": "/fast_rewards_test/static/js/3.d7ee6014.chunk.js.map",
     "index.html": "/fast_rewards_test/index.html",
-    "static/css/main.e0af20f8.chunk.css.map": "/fast_rewards_test/static/css/main.e0af20f8.chunk.css.map",
+    "static/css/main.ee105ef4.chunk.css.map": "/fast_rewards_test/static/css/main.ee105ef4.chunk.css.map",
     "static/js/2.078233fe.chunk.js.LICENSE.txt": "/fast_rewards_test/static/js/2.078233fe.chunk.js.LICENSE.txt",
     "static/media/bg_img_1.dae3af8d.png": "/fast_rewards_test/static/media/bg_img_1.dae3af8d.png",
     "static/media/bg_img_3.111c0dff.png": "/fast_rewards_test/static/media/bg_img_3.111c0dff.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.f5c14717.js",
     "static/js/2.078233fe.chunk.js",
-    "static/css/main.e0af20f8.chunk.css",
-    "static/js/main.921671d0.chunk.js"
+    "static/css/main.ee105ef4.chunk.css",
+    "static/js/main.dbc123ed.chunk.js"
   ]
 }
