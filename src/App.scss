@@ -47,12 +47,12 @@
       left: 0;
       z-index: 1;
   }
-  .bg__big, .bg__mid {
+  .bg__big, .bg__mid, .bg__mid_2 {
       width: 100%;
       position: absolute;
       bottom: 0;
   }
-  .main__bg__mid, .bg__mid {
+  .main__bg__mid, .bg__mid, .bg__img, .bg__mid_2, .bg__img_min {
     display: none;
   }
   .form__wrap {
@@ -96,5 +96,93 @@
   }
 
   @media screen and (max-width: 769px) {
-    
+    .form__wrap {
+      display: none;
+      padding-right: 0;
+      justify-content: center;
+    }
+    .form__container {
+      width: 71.35%;
+      min-width: 42rem;
+    }
+    .main__bg__mid, .bg__mid {
+      display: none;
+    }
+    .bg__mid_2, .bg__img {
+      display: block;
+    }
+    .bg__img {
+      position: absolute;
+      z-index: 1;
+      &#bg__img_1 {
+        width: 28.25%;
+        left: 4.56%;
+        top: -1.27%;
+      }
+      &#bg__img_2 {
+        width: 12.63%;
+        left: 
+        top: 7.8125%;
+      }
+      &#bg__img_3 {
+        bottom: 0;
+        left: 36.33%;
+        width: 30.86%;
+      }
+      &#bg__img_4 {
+        height: 98.6875%;
+        left: 1.43%;
+        top: 0%;
+      }
+      &#bg__img_5 {
+        height: 92.1875%;
+        right: 0;
+        top: 7.8125%;
+      }
+      &#bg__img_6 {
+        bottom: 0;
+        left: 36.33%;
+        width: 30.86%;
+      }
+      &#bg__img_7 {
+        bottom: 0;
+        left: 36.33%;
+        width: 30.86%;
+      }
+    } 
+  }
+
+  @media screen and (max-width: 575px) {
+    .form__container {
+      min-width: 34.3rem;
+      padding: 4rem 0 5.6rem;
+    }
+    .bg__img {
+      display: none;
+    }
+    .bg__img_min {
+      display: block;
+      position: absolute;
+      &#bg__img_8 {
+        width: 29.87%;
+        top: 0;
+        left: 7.528%;
+      }
+      &#bg__img_9 {
+        width: 20.8%;
+        bottom: 0.712%;
+        left: 4.58%;
+      }
+      &#bg__img_10 {
+        width: 27.73%;
+        bottom: 0.712%;
+        right: 0%;
+      }
+    }
+  }
+  @media screen and (max-width: 374px) {
+    .form__container {
+      min-width: 0;
+      width: 90%;
+    }
   }
