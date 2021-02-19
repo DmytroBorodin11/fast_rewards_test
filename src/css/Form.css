@@ -51,6 +51,26 @@
   width: 100%;
 }
 
+.field__block .error__message {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  padding: 0.4rem 0 0 0;
+  left: 1.4rem;
+  font-size: 1.4rem;
+  font-family: Roboto;
+  line-height: 1.9rem;
+  color: #F4604D;
+}
+
+.field__block.error input {
+  border: 1px solid #F4604D;
+}
+
+.field__block.error input::placeholder {
+  color: #F4604D;
+}
+
 .submit__btn {
   width: 21.2rem;
   padding: 1.5rem 0;
@@ -61,6 +81,10 @@
   color: #FEFEFE;
   background: linear-gradient(90deg, #FF9146 0%, #FF351B 100%);
   border-radius: 5px;
+}
+
+.submit__btn[disabled] {
+  background: #B2B7BB;
 }
 
 .form__text {
