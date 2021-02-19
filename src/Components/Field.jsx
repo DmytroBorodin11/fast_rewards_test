@@ -8,8 +8,6 @@ export default function Field(props) {
 
     let [ invalidField, setInvalidField ] = useState(false);
 
-    console.log(invalidField);
-
     const checkIfInvalid = (e) => {
         if (e.target.value === '') {
             setInvalidField(true);

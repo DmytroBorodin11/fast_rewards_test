@@ -25,11 +25,13 @@ function Form(props) {
     }
     const updateIsDisabled = (invalidField) => {
         setIsDisabled(invalidField);
+        if (emailValue === '' || passValue === '') {
+            setIsDisabled(true);
+        }
     }
 
     const changePassType = () => {
         if ( passType === 'password') {
-            console.log(passValue);
             setPassType('text')
         }else {
             setPassType('password');
